@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(png/ice.jpeg);
+    background-size: cover; 
+    background-position: center; 
+}
+
+.menu {
+    background-color: #463d58;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7391af;
+    width: 100vw;
+    height: 5vh;
+    padding: 5px 20px; 
+    position: fixed;
+   
+}
+
+.menu h4 {
+    color: #c0c7e3;
+    font-family: 'Lilita One', cursive;
+}
+
+.links img {
+    width: 30px;
+    height: auto;
+    border-radius: 60%;
+}
+
+.links {
+    margin-right: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #2c2929;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.left-box{
+    border-radius:10px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+ .middle-box, .right-box {
+    border-radius:10px;
+    padding: 20px;
+    margin: 10px;
+   
+}
+
+.left-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center; 
+}
+.left-box h4
+{
+    color: #2216c1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 70px;
+}
+
+.left-box li {
+    margin-bottom: 2px;
+    align-items: center; 
+}
+
+.left-box img {
+    width: 2vw;
+    height: auto;
+    border-radius: 60px;
+}
+
+.left-box {
+    background-color: #3dc3f8;
+    flex: 0.4;
+    display: flex;
+   
+}
+
+.left-box a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.middle-box {
+    background-color: #0e6094;
+    background-image: url(images/bgcenter.jpg);
+    flex: 3;
+}
+
+.middle-box h2 {
+    margin-top: -10px;
+    color: rgb(135, 219, 222);
+    text-shadow: 2px 2px 10px #000000;
+}
+
+.middle-box p {
+    color: rgb(248, 250, 252);
+    text-shadow: 2px 2px 10px #000000;
+    font-style:italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.middle-box img {
+    width: 40vw;
+    height: auto;
+    margin-left: 60px;
+}
+
+.right-box {
+    background-color: #6e8fb5;
+    background-image: url(images/bg2.jpg);
+    flex: 1.5;
+}
+
+.right-box p {
+    color: #614f4f;
+    text-align: center;
+}
+
+.right-box img {
+    width: 20vw;
+    height: auto;
+    padding-left: 35px;
+}
+.image1 img
+{
+   width: 5vw;
+    height: auto;
+    margin-top: 20px;
+    
+
+}
+.image2 img {
+    
+   width: 5vw;
+   height: auto;
+   margin-top: 10px;
+
+}
+.image3 img{
+    
+   width: 5vw;
+   height: auto;
+   margin-top: 10px;
+}
+.links img {
+    width: 30px;
+    height: auto;
+    border-radius: 60%;
+    }
+    .links {
+    margin-right: 30px;|
+    }
+    
